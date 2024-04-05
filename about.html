@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
@@ -7,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portis_konst portfolio</title>
 </head>
+
 <body>
     <nav id="desktop-nav">
         <div class="logo">portis konst</div>
@@ -17,29 +19,52 @@
                 <li><a href="./contact.html">Contact me</a></li>
             </ul>
         </div>
-        </nav>
+    </nav>
 
-        <nav id="hamburger-nav">
-            <div class="logo">portis konst</div>
-            <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick="toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="menu-links">
-                    <li><a href="./about.html" onclick="toggleMenu()">About</a></li>
-                    <li><a href="./portfolio.html" onclick="toggleMenu()">Portfolio</a></li>
-                    <li><a href="./contact.html" onclick="toggleMenu()">Contact me</a></li>
-                </div>
+    <nav id="hamburger-nav">
+        <div class="logo">portis konst</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
+            <div class="menu-links">
+                <li><a href="./about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="./portfolio.html" onclick="toggleMenu()">Portfolio</a></li>
+                <li><a href="./contact.html" onclick="toggleMenu()">Contact me</a></li>
+            </div>
+        </div>
     </nav>
     <section id="profile">
-       
 
+        <div class="section__pic-container">
+            <img src="./images/profile_pic3.jpg" alt="Profile picture" class="about-pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Learn more</p>
+            <h2>About Me</h2>
+            <p class="section__text__p2">Some info about me jada jada jada jada jada jada
+                jada jada jada jada jada jada jada jada jada jada jada jada jada jada jada
+                jada jada jada jada jada jada jada jada jada jada jada jada jada jada jada jada jada jada
+                jada jada jada jada jada jada jada jada jada jada jada jada jada jada jada
+                jada jada jada jada jada jada jada jada jada jada jada jada jada jada jada
+                jada jada jada jada jada jada jada jada jada jada jada jada jada jada jada
+                jada jada jada jada jada jada jada jada jada
+            </p>
+
+            <div id="socials-container">
+                <img src="./images/insta_icon.png" alt="My Instagram profile"
+                class="icon insta" onclick="location.href='https://www.instagram.com/portis_konst'">
+                <img src="./images/email_icon.png" alt="My Email"
+                class="icon" onclick="location.href='https://www.instagram.com/portis_konst'">
+            </div>
+           
+        </div>
 
     </section>
-        
+
     <script src="script.js"></script>
 </body>
+
 </html>
