@@ -12,7 +12,7 @@ html { /*in case i will add ancors */
     scroll-behavior: smooth;
 }
 
-img:not(.artwork_image) {
+#profile_pic {
     border-radius: 50%;
 }
 
@@ -220,7 +220,7 @@ section {
 .artwork-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(75px, 1fr)); /* Adjust minmax width as needed */
-    gap: 25px; /* Adjust gap between artworks */
+    gap: 35px; /* Adjust gap between artworks */
 }
 
 .artwork {
@@ -233,4 +233,7 @@ section {
     max-width: 100%; /* Adjust max-width as needed */
     height: auto;
     border-radius: 5px; /* Add border-radius if needed */
+}
+
+#about-pic {
 }
