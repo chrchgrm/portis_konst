@@ -12,9 +12,9 @@ html { /*in case i will add ancors */
     scroll-behavior: smooth;
 }
 
-img {
+img:not(.artwork_image) {
     border-radius: 50%;
-  }
+}
 
 p {
     color: #672109;
@@ -217,3 +217,20 @@ section {
     height: 1.8rem;
 }
 
+.artwork-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr)); /* Adjust minmax width as needed */
+    gap: 25px; /* Adjust gap between artworks */
+}
+
+.artwork {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.artwork img {
+    width: 100%;
+    max-width: 100%; /* Adjust max-width as needed */
+    height: auto;
+    border-radius: 5px; /* Add border-radius if needed */
+}
