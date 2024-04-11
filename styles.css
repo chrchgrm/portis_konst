@@ -74,6 +74,7 @@ a:hover {
 
 #hamburger-nav {
     display: none;
+    z-index: 1000;
 }
 
 .hamburger-menu {
@@ -106,6 +107,7 @@ a:hover {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    z-index: 999;
 }
 
 .menu-links a {
@@ -154,11 +156,17 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
+    padding-left: 10rem; /* Adjust padding as needed */
+    padding-right: 10rem; /* Adjust padding as needed */
     box-sizing: border-box;
-    min-height: fit-content;
     position: relative; 
+}
+
+#about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Create responsive grid columns */
+    gap: 2rem; /* Add gap between grid items */
+    align-items: center; /* Align items vertically */
 }
 
 .section-container {
@@ -304,7 +312,7 @@ section {
     font-size: 16px;
     color: #E7DFD8;
     gap: 10px;
-    border: 2px solid #672109;
+    border: 2px solid #BA816D;
     border-radius: 50px;
     background-color: #672109;
     cursor: pointer;
