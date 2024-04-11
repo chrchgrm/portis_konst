@@ -38,7 +38,7 @@
     </nav>
     <section id="contact">
        <div class="contact-container">
-        <form action="" class ="contact-left">
+        <form action="https://api.web3forms.com/submit" method="POST" class ="contact-left">
             <div class="contact-left-title">
                 <h2>Get in touch</h2>
                 <hr>
@@ -46,12 +46,11 @@
             <input type="text" name="name" placeholder="Your name" class="contact-input" required>
             <input type="email" name="email" placeholder="Your email" class="contact-input" required>
             <textarea type="message" name="message" placeholder="Your message" class="contact-input" required></textarea>
+            <div class="h-captcha" data-captcha="true"></div>
             <button type="submit">Submit</button>
-
+            <input type="hidden" name="access_key" value="bced3c83-f143-4966-a2a5-4daf6431d95c">
         </form>
-        <form action="" class ="contact-right">
-
-        </form>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
        </div>
 
         
