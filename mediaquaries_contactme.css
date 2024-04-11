@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 800px){
+    .contact-input{
+        width: 80vw;
+    }
+
+    .contact-left textarea {
+        width: 50vw;
+        max-width: 90vw;
+    }
+}
+
+    
